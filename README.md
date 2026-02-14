@@ -1,4 +1,4 @@
-# 🎮 CipherGrid
+# 🎮 PGrid
 
 A competitive web-based memory puzzle game built with **HTML, CSS, and Vanilla JavaScript**.
 
@@ -67,7 +67,7 @@ Difficulty increases by:
 ## 🏗 Project Structure
 
 ```
-CipherGrid/
+PGrid/
 │
 ├── index.html
 ├── style.css
@@ -163,7 +163,7 @@ No frameworks. No external dependencies.
 
 ## 🎯 Educational Value
 
-CipherGrid demonstrates:
+PGrid demonstrates:
 
 - DOM manipulation  
 - Event handling  
