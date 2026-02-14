@@ -188,8 +188,8 @@ Ready for:
 ---
 
 ## 👨‍💻 Author
-
-Developed as a competitive web-based memory puzzle system focused on structured game architecture and scalable design.
+[Eng.pantane](https://nf-d.netlify.app/)
+Developed this as a competitive web-based memory puzzle system focused on structured game architecture and scalable design.
 
 ---
 
