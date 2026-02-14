@@ -5,6 +5,7 @@ const startBtn = document.getElementById("startBtn");
 const scoreElement = document.getElementById("score");
 const livesElement = document.getElementById("lives");
 const comboElement = document.getElementById("combo");
+const levelSelect = document.getElementById("levelSelect");
 
 let level = 1;
 let gridSize = 3;
@@ -186,7 +187,20 @@ function startLevel() {
     showPattern();
 }
 
-startBtn.addEventListener("click", startLevel);
+startBtn.addEventListener("click", () => {
+    // Set the level based on user selection
+    level = parseInt(levelSelect.value);
+    gridSize = 2 + level;  // Adjust grid size starting from the selected level
+    maxTime = Math.max(4, 12 - level); // Adjust maxTime according to level
+    
+    score = 0;
+    lives = 3;
+    combo = 0;
+
+    updateUI();
+    startLevel();
+});
+
 
 updateUI();
 createGrid(gridSize);
